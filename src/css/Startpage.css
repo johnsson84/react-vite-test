@@ -13,6 +13,15 @@
     "main"
     "content";
 }
+.welcome {
+    display: flex;
+    justify-content:space-evenly;
+
+}
+.btn-form {
+    display: flex;
+    justify-content: space-between;
+}
 .section {
     grid-area: main;
     display: flex;

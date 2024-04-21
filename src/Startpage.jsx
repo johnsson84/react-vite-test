@@ -6,6 +6,7 @@ import Main from "./components/Main";
 import Message from "./components/Message";
 import ReusableButton from "./components/ReusableButton";
 import Content from "./components/Content";
+import Form from "./components/Form";
 import "./css/Startpage.css";
 import { useState } from "react";
 
@@ -21,8 +22,15 @@ function Startpage() {
     <div className="startpage">
       <section className="asd">
         <Header></Header>
-        <Message greet="Welcome" who={who} />
-        <ReusableButton onClick={inputName}>Change name</ReusableButton>
+        <div className="welcome">
+          <Message greet="Welcome" who={who} />
+          <ReusableButton onClick={inputName}>Change name</ReusableButton>
+        </div>
+        
+        <div className="btn-form">
+          <Form></Form>
+        </div>
+        
       </section>
 
       <section className="section">

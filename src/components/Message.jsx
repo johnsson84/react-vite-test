@@ -1,5 +1,7 @@
+import "../css/Message.css";
+
 const Message = ({greet, who}) => {
-    return <span>{greet}, {who}!</span>
+    return <span className="greet">{greet}, {who}!</span>
 };
 
 export default Message;
