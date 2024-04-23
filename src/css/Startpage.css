@@ -7,7 +7,7 @@
 .startpage {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 150px 250px 1fr;
+    grid-template-rows: 150px 380px 1fr;
     grid-template-areas: 
     "header"
     "main"

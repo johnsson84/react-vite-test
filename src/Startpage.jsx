@@ -8,6 +8,7 @@ import ReusableButton from "./components/ReusableButton";
 import Content from "./components/Content";
 import Form from "./components/Form";
 import "./css/Startpage.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from "react";
 
 function Startpage() {
