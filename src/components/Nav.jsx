@@ -1,3 +1,4 @@
+import Login from './Login';
 import '../css/Nav.css'
 
 const Nav = () => {
@@ -7,6 +8,8 @@ const Nav = () => {
                 <li>Home</li>
                 <li>About</li>
                 <li>Contact</li>
+                <hr></hr>
+                <li><Login></Login></li>
             </ul>
         </nav>
     )
